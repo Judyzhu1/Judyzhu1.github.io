@@ -2,10 +2,12 @@
 <html>
 
     <style>
-     
+     buttom,form,h2,h3,h4,h6,div,p{
+        text-align:center;
+      }     
       form{
         text-align: center;
-        border: 1px solid green;
+       
       }
 header {
   text-align: center;
@@ -31,14 +33,15 @@ h2 {
   font-size: 24px;
   padding: 15px;
   text-transform: uppercase;
+  
 }
 
-h3 {
-  font-size: 15px;
+.subtitle{
+  font-size: 20px;
   color:#2874A6;
   padding: 15px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   margin-left: 20px;
   font-weight: 500;
   line-height: 2.5;
@@ -58,31 +61,47 @@ footer {
 }
  .Georgia{
    font-family: Georgia, serif;
+   color:white;
    }
  .Helvetica{
    font-family:Helvetica;
    font-weight: bold;
    color: black;
    text-align:center;
+    border: 10px dotted black;
+  padding: 15px;
+  background-clip: border-box;
         
  }
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:4px solid #A3E4D7;
+}  
+     .responsive {
+       opacity: 0.5;
+  width: 100%;
+  height: auto;
+} 
  p{
         
   font-family: "Comic Sans MS", cursive, sans-serif;
+  
    }
-      button1{
-        text-align:center;
+      button{
+        
         background-color: lightblue;
-.enter{
-          text-align:center;
-        }   
+ 
       }    
-      button1:hover {
+      button:hover {
         background-color:lightseagreen;
       }
       tb,tr{
         border: 1px solid black;
       }
+     
+     
 </style>     
   
 </html>
